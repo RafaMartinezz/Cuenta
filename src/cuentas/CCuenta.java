@@ -26,7 +26,7 @@ public class CCuenta {
         cuenta = cue;
         saldo = sal;
     }
-
+    
     public String getNombre() {
         return nombre;
     }
@@ -59,6 +59,10 @@ public class CCuenta {
         return saldo;
     }
 
+    /**
+     * Devolver el estado de saldo de la cuenta.
+     * @return Saldo de la cuenta.
+     */
     public double estado() {
         return saldo;
     }
