@@ -1,6 +1,8 @@
 package cuentas;
 public class Main {
 
+    
+    
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -9,6 +11,8 @@ public class Main {
         operativa_cuenta(cuenta1, 0);
     }
 
+    
+   
     private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         double saldoActual;
         saldoActual = cuenta1.estado();
